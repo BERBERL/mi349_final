@@ -1,0 +1,76 @@
+body {
+    background-color: #ffcd8c; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #222;
+    margin-top: 100px;
+} 
+
+img {
+    width: 100%;
+}
+
+.jasper {
+    margin: 15px 0;
+    font-size: 2em;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 100;
+    font-size: large;
+}
+
+.card {
+    background-color: #ffe9c9;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 20px;
+    border: solid 0.5px #aaa;
+}
+
+.card .avatar {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 50px;
+    box-shadow:rgba(0, 0, 0, 0.1) 0 10px 10px;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    width: 30px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.contacts li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+body {
+    background-color: #ffcd8c; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #222;
+    margin-top: 100px;
+} 
+
+
+.h111 {
+    font-size: 3em;
+    text-align: center;
+    color: rgb(33, 49, 134);
+}
+
+.nav {
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+}
+
