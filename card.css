@@ -74,7 +74,7 @@ body {
     width: auto;
     text-align: center;
     list-style-type: none;
-    font-style: italic;
+    font-style: unset;
 }
 
 .nav a:link {
