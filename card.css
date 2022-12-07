@@ -12,6 +12,7 @@ img {
 .jasper {
     margin: 15px 0;
     font-size: 2em;
+    font-family: fantasy;
 }
 
 h2 {
@@ -27,14 +28,14 @@ h2 {
     width: 400px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.2) 0 0 20px;
-    border: solid 0.5px #aaa;
+    border: 0.6px solid #fd8433;
 }
 
 .card .avatar {
     width: 120px;
     border-radius: 50%;
     margin-top: 50px;
-    box-shadow:rgba(0, 0, 0, 0.1) 0 10px 10px;
+    box-shadow:#d26e2c66 0 10px 10px;
 }
 
 .contacts {
@@ -63,9 +64,10 @@ body {
 
 
 .h111 {
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
-    color: rgb(33, 49, 134);
+    color: rgb(26, 66, 129);
+    font-family: Big Calson;
 }
 
 .nav {
@@ -88,7 +90,7 @@ body {
 }
 
 .but1 {
-    border:0.5px solid rgb(109, 109, 109);
+    border: 0.6px solid #e96e1d;
     border-radius: 15%;
     background-color: rgba(255, 255, 255, 0.633);
     color: #222;
@@ -97,10 +99,11 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 10px;
+    box-shadow: #fd8433 0 0 5px;
 }
 
 .but2 {
-    border: 0.5px solid rgb(109, 109, 109);
+    border: 0.6px solid #e96e1d;
     border-radius: 15%;
     background-color: rgba(255, 255, 255, 0.633);
     margin: 10px;
@@ -108,10 +111,11 @@ body {
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    box-shadow: #fd8433 0 0 5px;
 }
 
 .but3 {
-    border:0.5px solid rgb(109, 109, 109);
+    border: 0.6px solid #e96e1d;
     border-radius: 15%;
     background-color: rgba(255, 255, 255, 0.633);
     margin: 10px;
@@ -119,4 +123,5 @@ body {
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    box-shadow: #fd8433 0 0 5px;
 }

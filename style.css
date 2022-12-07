@@ -7,9 +7,11 @@ body {
 
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     color: rgb(26, 66, 129);
+    font-family: Big Calson;
+
 }
 
 .head{
@@ -23,7 +25,7 @@ h1 {
     text-align: center;
     list-style-type: none;
     color: #222;
-    font-style: italic;
+    font-style: unset;
 }
 
 .nav a:link {
@@ -39,7 +41,7 @@ h1 {
 }
 
 .but1 {
-    border:0.5px solid rgb(109, 109, 109);
+    border: 0.6px solid #e96e1d;
     border-radius: 15%;
     background-color: rgba(255, 255, 255, 0.633);
     color: #222;
@@ -48,10 +50,11 @@ h1 {
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 10px;
+    box-shadow: #fd8433 0 0 5px;
 }
 
 .but2 {
-    border: 0.5px solid rgb(109, 109, 109);
+    border: 0.6px solid #e96e1d;
     border-radius: 15%;
     background-color: rgba(255, 255, 255, 0.633);
     margin: 10px;
@@ -59,10 +62,11 @@ h1 {
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    box-shadow: #fd8433 0 0 5px;
 }
 
 .but3 {
-    border:0.5px solid rgb(109, 109, 109);
+    border: 0.6px solid #e96e1d;
     border-radius: 15%;
     background-color: rgba(255, 255, 255, 0.633);
     margin: 10px;
@@ -70,15 +74,17 @@ h1 {
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    box-shadow: #fd8433 0 0 5px;
 }
 
 .main {
     border: 0 auto;
     width: 100%;
+    box-shadow: #963f0570 0 10px 10px;
 }
 
 .story {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     font-size: large;
 }
@@ -87,6 +93,7 @@ h1 {
 .tea1 {
     width: 200px;
     float: none;
+    border-radius: 30px;
 }
 
 .box {
@@ -98,17 +105,66 @@ h1 {
     max-width: 100%;
     float: center;
     object-fit: contain;
+    border-radius: 25px;
+    box-shadow: #963f0570 0 10px 20px;
 
 }
 .logo {
     max-width: 200px;
     float: left;
+    border-radius: 15px;
 }
 
 .sign {
     text-align: end;
-    border: 1px solid rgb(156, 155, 155);
+    border: 0.6px solid #fd8433;
     padding: 10px;
     margin: 0 auto;
+    margin-top: 30px;
     display: inline-block;
+    border-radius: 20px;
+    box-shadow: #fd8433 0 0 10px;
+}
+
+.par1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    border: 0.6px solid #fd8433;
+    font-family: Big Calson;
+    box-shadow: #963f0570 0 10px 20px;
+}
+
+.par2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    border: 0.6px solid #fd8433;
+    box-shadow: #963f0570 0 10px 20px;
+}
+
+.par3 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    border: 0.6px solid #fd8433;
+    box-shadow: #963f0570 0 10px 20px;
 }
